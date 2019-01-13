@@ -1,3 +1,9 @@
+-- Increase bag space
+UPDATE
+	`item_template`
+SET
+	`ContainerSlots` = `ContainerSlots` * 2;
+
 -- Increase stacking size by a factor of 5.	
 UPDATE
 	item_template
